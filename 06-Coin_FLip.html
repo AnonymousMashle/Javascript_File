@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="
+      const ranNum = Math.random();
+      let result;
+      let guess;
+      
+      if (ranNum <= 0.5) {
+        result = 'Heads';
+        alert(`The Coin turned Heads , You Win`);
+      } else {
+        result = 'Tails'
+        alert(`The Coin turned Heads , You Lose`);
+      } 
+
+    ">
+    Heads
+  </button>
+
+  <button onclick="
+      const ranNum1 = Math.random();
+      let result1;
+
+      if (ranNum1 > 0.5) {
+        result1 = 'Tails';
+        alert(`The Coin turned Tails ,You win`);
+      } else {
+        result1 = 'Heads';
+        alert(`The Coin turned Tails ,You Lose`);
+      }
+    ">
+    Tails
+  </button>
+
+  <script>
+    /*const hour = 19;
+    let name = 'Reymart'; 
+
+    if (hour >= 6 && hour <= 12) {
+      console.log(`Ohayo ,${name}`);
+    } else if (hour >= 13 && hour <= 17) {
+      console.log(`Good Afternoon`);
+    } else if (hour >= 18 && hour <= 20) {
+      console.log(`Good Evening, ${name}`);
+    } else {
+      console.log(`Matulog kana! ${name}`);
+    }
+
+    let age = 6;
+    const isHoliday = false;
+
+    if ((age <= 6 || age >= 65)&& !isHoliday ) {
+      console.log('Discount');
+    } else {
+      console.log('No Discount To you Sire');
+    }
+    
+
+    const ranNum = Math.random();
+    let result;
+
+    if (ranNum < 0.5) {
+      result = 'Heads';
+    } else {
+      result = 'Tails';
+    }
+
+    const guess = 'Tails';
+    if (guess === result) {
+      console.log('You Win');
+    } else {
+      console.log('You Lose');
+    }
+
+    const ranNum = Math.random();
+    const result = ranNum < 0.5 ? 'Heads':'Tails';
+
+    const guess = 'Heads';
+    console.log(result === 'Heads'? 'You Win': 'You Lose');
+  */
+  </script>
+</body>
+</html>
